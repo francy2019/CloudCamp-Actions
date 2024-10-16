@@ -10,7 +10,7 @@ jobs:
         - run: ls -la
         - name: terraform-version
           run: |
-            terraform version
+            terraform -v
             echo "Ok"
 
         - name: terraform-init
